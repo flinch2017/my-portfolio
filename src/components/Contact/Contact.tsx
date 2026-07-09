@@ -11,7 +11,7 @@ function Contact() {
       </p>
 
       <div className="contact-grid">
-        <a href="mailto:youremail@example.com" className="contact-card">
+        <a href="mailto:iriscontado@gmail.com" className="contact-card">
           <FaEnvelope className="contact-icon" />
 
           <div>
