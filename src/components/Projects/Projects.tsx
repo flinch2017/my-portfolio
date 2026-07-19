@@ -9,7 +9,15 @@ interface Project {
 
 const projects: Project[] = [
   {
-    title: "Fruityger",
+    title: "Pointerx - AI Student Reviewer Assistant (Mobile App)",
+    description:
+      "An AI-powered student reviewer assistant that serves as a study companion chatbot and converts PDFs into learning materials.",
+    technologies: ["React Native", "Typescript"],
+    image: "/pointerx1.jpg",
+    github: "https://github.com/flinch2017/Pointerx",
+  },
+  {
+    title: "Fruityger - Social Media Platform (Web App)",
     description:
       "A nostalgic Frutiger Aero-inspired social networking platform built with React, JavaScript, and Supabase.",
     technologies: ["React", "JavaScript", "Node.js", "Supabase", "Render"],
@@ -18,7 +26,7 @@ const projects: Project[] = [
     demo: "https://fruityger.onrender.com",
   },
   {
-    title: "Fruityger Mobile",
+    title: "Fruityger Mobile - Social Media Platform (Mobile App)",
     description:
       "A React Native version of Fruityger featuring messaging, tapes, notifications, and posts.",
     technologies: ["React Native", "Expo", "TypeScript"],
@@ -26,7 +34,8 @@ const projects: Project[] = [
     github: "https://github.com/flinch2017/FruitygerMobile",
   },
   {
-    title: "Barangay Profiling System (BPS)",
+    title:
+      "Barangay Profiling System (BPS) - Barangay Profiling and Certificate Management System (Web App)",
     description:
       "A profiling and certificate management system with resident records and officials.",
     technologies: ["React", "Node.js", "Supabase", "Cloudflare R2"],
