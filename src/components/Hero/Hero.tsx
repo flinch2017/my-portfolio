@@ -1,30 +1,3 @@
 import { TypeAnimation } from "react-type-animation";
-
-function Hero() {
-  return (
-    <section id="hero">
-      <h1 className="hero-title">
-        Hi, I'm <span className="hero-highlight">Iris Contado</span>
-      </h1>
-
-      <TypeAnimation
-        sequence={[
-          "Programmer",
-          1800,
-          "Computer Engineer",
-          1800,
-          "Project Manager",
-          1800,
-          "AWS Skilled",
-          1800,
-        ]}
-        wrapper="p"
-        speed={40}
-        repeat={Infinity}
-        className="hero-typing"
-      />
-    </section>
-  );
-}
-
+function Hero() { return <section id="hero"><div className="hero-inner"><div><span className="eyebrow">Portfolio / 2026</span><h1 className="hero-title">Iris Contado<span>.</span></h1><p className="hero-summary">Computer Engineer and software developer building reliable digital products with thoughtful user experiences and scalable technology.</p><div className="hero-actions"><a className="button button-primary" href="#projects">View selected work <span>→</span></a><a className="button button-secondary" href="#contact">Start a conversation</a></div></div><aside className="hero-panel" aria-label="Professional focus"><p className="hero-panel-label">Professional focus</p><TypeAnimation sequence={["Software Development",1800,"Cloud & Infrastructure",1800,"Product Delivery",1800]} speed={45} repeat={Infinity} wrapper="p" className="hero-roles"/><div className="hero-stat"><strong>01 /</strong><span>Web & mobile application engineering</span></div><div className="hero-stat"><strong>02 /</strong><span>Cloud-ready architecture & deployment</span></div><div className="hero-stat"><strong>03 /</strong><span>Pragmatic, user-centered delivery</span></div></aside></div></section>; }
 export default Hero;
