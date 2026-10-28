@@ -1,2 +1,17 @@
-function About() { return <section id="about"><div className="section-inner about-layout"><div><span className="eyebrow">Profile</span><h2 className="section-title">Engineering with clarity, from concept to launch.</h2></div><div><div className="about-copy"><p>I’m Iris Contado, a Computer Engineering graduate from Eastern Samar State University. I create web and mobile applications that make complex tasks simpler for the people using them.</p><p>My work pairs modern front-end development with dependable backend services and cloud infrastructure—always focused on outcomes, maintainability, and a considered user experience.</p></div><ul className="expertise-list"><li>Web application development <span>01</span></li><li>Cross-platform mobile products <span>02</span></li><li>Cloud deployment & integrations <span>03</span></li></ul></div></div></section>; }
+function About() {
+  return (
+    <section id="about">
+      <div className="section-inner about-layout">
+        <span className="eyebrow">About me</span>
+        <div className="about-copy">
+          <p>
+            I am Iris Contado, a Computer Engineering graduate from Eastern
+            Samar State University and a Software Developer. I have developed
+            personal projects and commercial projects through freelancing.
+          </p>
+        </div>
+      </div>
+    </section>
+  );
+}
 export default About;

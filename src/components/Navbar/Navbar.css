@@ -1,0 +1,63 @@
+body .site-header {
+  background: #171717 !important;
+  border: 0 !important;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.16) !important;
+}
+
+body .navbar {
+  height: 76px !important;
+  padding: 0 max(6vw, 1.5rem) !important;
+}
+
+body .brand {
+  color: #fff !important;
+  font-size: 0.78rem !important;
+  gap: 0.75rem !important;
+  letter-spacing: 0.08em !important;
+}
+
+body .brand-mark {
+  background: #f5f2eb !important;
+  color: #171717 !important;
+  font-size: 0.66rem !important;
+  height: 30px !important;
+  width: 30px !important;
+}
+
+body .nav-links {
+  align-items: center !important;
+  gap: 0.25rem !important;
+}
+
+body .nav-links a {
+  color: #c4c4c4 !important;
+  display: block;
+  padding: 0.55rem 0.7rem;
+  transition: color 0.2s ease, background 0.2s ease !important;
+}
+
+body .nav-links a:hover {
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff !important;
+}
+
+body .nav-links .nav-contact {
+  background: #f5f2eb !important;
+  color: #171717 !important;
+  margin-left: 0.5rem;
+  padding: 0.65rem 0.85rem !important;
+}
+
+body .nav-links .nav-contact:hover {
+  background: #fff !important;
+  color: #171717 !important;
+}
+
+@media (max-width: 520px) {
+  body .navbar { height: 64px !important; }
+  body .brand-name { display: none; }
+  body .nav-links { gap: 0.05rem !important; }
+  body .nav-links li:not(:last-child) { display: list-item !important; }
+  body .nav-links a { padding: 0.5rem 0.45rem; }
+  body .nav-links .nav-contact { margin-left: 0.15rem; }
+}
