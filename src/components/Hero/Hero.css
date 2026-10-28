@@ -1,0 +1,27 @@
+body #hero {
+  isolation: isolate;
+  overflow: hidden;
+}
+
+body .hero-peek-x {
+  animation: hero-x-rotate 42s linear infinite;
+  color: #171717;
+  font: 500 clamp(26rem, 55vw, 58rem)/0.75 Arial, sans-serif;
+  opacity: 0.035;
+  pointer-events: none;
+  position: absolute;
+  right: clamp(-22rem, -15vw, -8rem);
+  top: 50%;
+  transform: translateY(-50%);
+  transform-origin: center;
+  user-select: none;
+  z-index: -1;
+}
+
+@keyframes hero-x-rotate {
+  to { transform: translateY(-50%) rotate(360deg); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  body .hero-peek-x { animation: none; }
+}

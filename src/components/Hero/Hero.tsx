@@ -1,6 +1,9 @@
+import "./Hero.css";
+
 function Hero() {
   return (
     <section id="hero">
+      <span className="hero-peek-x" aria-hidden="true">×</span>
       <div className="hero-inner">
         <h1 className="hero-title">
           Iris Contado<span>.</span>
