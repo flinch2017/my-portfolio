@@ -86,12 +86,12 @@ function Projects() {
                   <div className="project-links">
                     {project.github && (
                       <a href={project.github} target="_blank" rel="noreferrer">
-                        GitHub ↗
+                        GitHub
                       </a>
                     )}
                     {project.demo && (
                       <a href={project.demo} target="_blank" rel="noreferrer">
-                        Live demo ↗
+                        Live demo
                       </a>
                     )}
                   </div>

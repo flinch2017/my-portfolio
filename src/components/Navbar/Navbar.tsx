@@ -7,7 +7,7 @@ function Navbar() {
       <ul className="nav-links">
         <li><a href="#about">About</a></li>
         <li><a href="#projects">Projects</a></li>
-        <li><a className="nav-contact" href="#contact">Contact <span aria-hidden="true">↗</span></a></li>
+        <li><a className="nav-contact" href="#contact">Contact</a></li>
       </ul>
     </nav>
   </header>;

@@ -57,6 +57,7 @@ body .nav-links a {
   color: #dedede !important;
   display: block;
   padding: 0.42rem 0.6rem;
+  text-decoration: none !important;
   transition: color 0.2s ease, background 0.2s ease !important;
 }
 
