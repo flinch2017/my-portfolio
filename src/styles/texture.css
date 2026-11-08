@@ -1,0 +1,40 @@
+:root {
+  --grain: repeating-radial-gradient(
+    circle at 0 0,
+    rgba(23, 23, 23, 0.035) 0,
+    rgba(23, 23, 23, 0.035) 0.7px,
+    transparent 0.8px,
+    transparent 2.8px
+  );
+}
+
+body #hero,
+body #about,
+body #projects {
+  background-image:
+    radial-gradient(circle at 82% 12%, rgba(208, 225, 218, 0.58), transparent 31rem),
+    radial-gradient(circle at 5% 92%, rgba(239, 224, 208, 0.5), transparent 28rem),
+    var(--grain) !important;
+}
+
+body #hero,
+body #projects {
+  background-color: #fafaf8 !important;
+}
+
+body #about {
+  background-color: #f6f5f1 !important;
+}
+
+body #contact,
+body .footer {
+  background-image:
+    radial-gradient(circle at 92% 15%, rgba(119, 151, 143, 0.25), transparent 28rem),
+    repeating-radial-gradient(
+      circle at 0 0,
+      rgba(255, 255, 255, 0.06) 0,
+      rgba(255, 255, 255, 0.06) 0.7px,
+      transparent 0.8px,
+      transparent 2.8px
+    ) !important;
+}

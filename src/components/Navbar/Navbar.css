@@ -1,51 +1,76 @@
 body .site-header {
-  background: #171717 !important;
+  background: transparent !important;
   border: 0 !important;
-  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.16) !important;
+  box-shadow: none !important;
+  left: 0;
+  padding-top: 1rem;
+  pointer-events: none;
+  position: fixed !important;
+  right: 0;
+  top: 0;
+  z-index: 50;
 }
 
 body .navbar {
-  height: 76px !important;
-  padding: 0 max(6vw, 1.5rem) !important;
+  align-items: center !important;
+  background: rgba(25, 25, 24, 0.86);
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  border-radius: 999px;
+  box-shadow: 0 12px 32px rgba(21, 28, 25, 0.16);
+  display: flex !important;
+  height: 46px !important;
+  justify-content: center !important;
+  max-width: max-content !important;
+  padding: 0 0.4rem 0 0.55rem !important;
+  pointer-events: auto;
+  backdrop-filter: blur(14px);
 }
 
 body .brand {
   color: #fff !important;
-  font-size: 0.78rem !important;
-  gap: 0.75rem !important;
-  letter-spacing: 0.08em !important;
+  font-size: 0.7rem !important;
+  gap: 0 !important;
+  letter-spacing: 0 !important;
 }
 
 body .brand-mark {
-  background: #f5f2eb !important;
+  background: #e6ece3 !important;
+  border-radius: 50%;
   color: #171717 !important;
-  font-size: 0.66rem !important;
+  font-size: 0.58rem !important;
   height: 30px !important;
   width: 30px !important;
 }
 
 body .nav-links {
   align-items: center !important;
-  gap: 0.25rem !important;
+  display: flex !important;
+  flex-direction: row !important;
+  gap: 0.1rem !important;
+  list-style: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
 }
 
 body .nav-links a {
-  color: #c4c4c4 !important;
+  border-radius: 999px;
+  color: #dedede !important;
   display: block;
-  padding: 0.55rem 0.7rem;
+  padding: 0.42rem 0.6rem;
   transition: color 0.2s ease, background 0.2s ease !important;
 }
 
 body .nav-links a:hover {
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.12);
   color: #fff !important;
 }
 
 body .nav-links .nav-contact {
-  background: #f5f2eb !important;
+  background: #e6ece3 !important;
+  border-radius: 999px;
   color: #171717 !important;
-  margin-left: 0.5rem;
-  padding: 0.65rem 0.85rem !important;
+  margin-left: 0.1rem;
+  padding: 0.48rem 0.68rem !important;
 }
 
 body .nav-links .nav-contact:hover {
@@ -54,10 +79,11 @@ body .nav-links .nav-contact:hover {
 }
 
 @media (max-width: 520px) {
-  body .navbar { height: 64px !important; }
+  body .site-header { padding-top: 0.75rem; }
+  body .navbar { height: 42px !important; }
   body .brand-name { display: none; }
   body .nav-links { gap: 0.05rem !important; }
-  body .nav-links li:not(:last-child) { display: list-item !important; }
+  body .nav-links li:not(:last-child) { display: block !important; }
   body .nav-links a { padding: 0.5rem 0.45rem; }
   body .nav-links .nav-contact { margin-left: 0.15rem; }
 }
