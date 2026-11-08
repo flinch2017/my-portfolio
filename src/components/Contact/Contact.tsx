@@ -1,3 +1,4 @@
 import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
+import "./Contact.css";
 function Contact(){return <section id="contact"><div className="section-inner contact-shell"><div><span className="eyebrow">Contact</span><h2>Let’s work together.</h2></div><div className="contact-list"><a href="mailto:iriscontado@gmail.com" className="contact-card"><FaEnvelope className="contact-icon"/><span>iriscontado@gmail.com</span></a><a href="https://github.com/flinch2017" target="_blank" rel="noreferrer" className="contact-card"><FaGithub className="contact-icon"/><span>GitHub</span></a><a href="https://linkedin.com/in/iris-contado-2b3ba9375" target="_blank" rel="noreferrer" className="contact-card"><FaLinkedin className="contact-icon"/><span>LinkedIn</span></a></div></div></section>}
 export default Contact;

@@ -1,0 +1,34 @@
+body #contact {
+  background: #171717 !important;
+  color: #fff !important;
+}
+
+body #contact .contact-shell {
+  background: transparent !important;
+  color: #fff !important;
+}
+
+body #contact .eyebrow {
+  color: #bcbcbc !important;
+}
+
+body #contact h2 {
+  color: #fff !important;
+}
+
+body #contact .contact-list {
+  border-color: #5a5a5a !important;
+}
+
+body #contact .contact-card {
+  border-color: #5a5a5a !important;
+  color: #fff !important;
+}
+
+body #contact .contact-card:hover {
+  color: #d6d6d6 !important;
+}
+
+body #contact .contact-icon {
+  color: #fff !important;
+}
